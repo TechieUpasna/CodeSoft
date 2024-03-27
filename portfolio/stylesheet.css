@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    position: relative;
+    overflow: hidden;
+}
+#page{
+    height: 100vh;
+    widows: 100vw;
+    background: black;
+    position: relative;
+}
+#page>img{
+    position: absolute;
+    right: 5%;
+    width: 30%;
+    top: 52%;
+    border-radius: 50%;
+    filter: drop-shadow(15px 10px 15px red);
+    transform: translateY(-50%);
+}
+#page>#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    height: 15%;
+    width: 100%;
+    position: absolute;
+    z-index: 9%;
+}
+#page>#nav>img{
+    display: flex;
+    width: 10%;
+    align-items: center;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+}
+#center-nav{
+    display: flex;
+    gap: 30px;
+}
+#nav>input{
+    padding: 10px 5px;
+    border-radius: 15px;
+    border: 1px solid red;
+    text-transform: uppercase;
+    
+}
+#center-nav>a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#text{
+    height: 75%;
+    width: 40%;
+    position: relative;
+    top: 20%;
+    padding: 30px 30px;
+    left: 8%;
+    scale: 1.1;
+}
+#text>#p1>h2{
+    font-size: 25px;
+    color:aliceblue;
+}
+#text>h2{
+    font-size: 35px;
+    text-align: right;
+    color:aliceblue;
+}
+#text>h1{
+    font-size: 60px;
+    line-height: 1.5;
+    color: red;
+}
+#btn{
+    height: 20%;
+    width: 100%;
+    left: 0%;
+    bottom: 18%;
+    position: absolute;
+}
+#btn>button{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: red;
+    font-size: 100%;
+    font-weight: 500;
+    margin-left: 20px;
+}
+#btn>button>i{
+    font-size: 20px;
+}
+#btn>button>a{
+    text-decoration: none;
+    color: black;
+}
+#page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background: rgb(29, 29, 29);
+}
+
+#page1>#right{
+    height: 90%;
+    width: 55%;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.box{
+    height: 22.5%;
+    width: 100%;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    border-top: 2px solid red;
+}
+.box>h4{
+    font-size: 20px;
+    margin-top: 2%;
+}
+.box>h1{
+    margin-top: 5%;
+}
+.circle{
+    height: 3vw;
+    width: 3vw;
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:aliceblue;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.circle>i{
+    color: red;
+    font-size: 20px;
+}
+#page1>#left{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+#text1{
+    height: 30%;
+    width: 70%;
+    z-index: 9;
+    margin: 50px 50px;
+}
+#text1>h1{
+    color: red;
+    font-size: 60px;
+    margin-top: 5px;
+}
+#text1>h4{
+    font-size: 17px;
+    color: rgb(250, 97, 97);
+    font-weight: 500;
+    width: 70%;
+    margin-top: 20px;
+}
+#text1>h5{
+    color: yellow;
+    transform: rotate(-20deg);
+    position: absolute;
+    left: 1%;
+}
+#page2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-color: black;
+}
+#project{
+    height: 50%;
+    width: 90%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#project>#p1{
+    border-top: 2px solid red;
+    height: 100%;
+    width: 32%;
+
+}
+#project>#p2{
+    border-top: 2px solid red;
+    height: 100%;
+    width: 32%;
+    position: relative;
+    top: -25%;
+}
+#project>#p3{
+    border-top: 2px solid red;
+    height: 100%;
+    width: 32%;
+    position: relative;
+    top: -50%;
+}
+#text3{
+    height: 40%;
+    width: 100%;
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+#text3>h4{
+    font-weight: 500;
+    font-size: 20px;
+    color: aliceblue;
+}
+#pic{
+    height: 65%;
+    margin-top: 2%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1387706835/vector/using-modern-tablet-computer-for-online-video-conference-teamwork-concept-3d-vector.jpg?s=1024x1024&w=is&k=20&c=-pjAZC0Xw-QB4b5vK20oXzU8sCDjXQ-Ww54H7LjvCtk=);
+    background-size: cover;
+    object-fit: cover;
+}
+#pic2{
+    height: 65%;
+    margin-top: 2%;
+    width: 100%;
+    background-image: url(https://media.istockphoto.com/id/1263039069/vector/female-patient-chooses-doctor-doctors-team-medical-staff-portraits-online-service-searching.jpg?s=612x612&w=0&k=20&c=qXfs9B7xGmehrAcLJ5ShC8pikLVwvq2FxDV3tvlyIk4=);
+    background-size: cover;
+    object-fit: cover;
+}
+#pic3{
+    height: 65%;
+    margin-top: 2%;
+    width: 100%;
+    object-fit: cover;
+    background-image: url(https://media.istockphoto.com/id/1028127312/vector/set-of-web-page-design-templates-for-business-plan-analysis-and-statistics-team-building.jpg?s=612x612&w=0&k=20&c=F1g7os6zBr7sJHUfNZOSKHibgLxpwE173wkqmnfKeW8=);
+    background-size: cover;
+}
+#text4{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    height: 20%;
+    width: 30%;
+     text-transform: uppercase;
+}
+#text4>h1{
+    margin-top: 20px;
+    font-size: 50px;
+    color: red;
+}
+#text4>h5{
+    color: yellow;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 0%;
+    left: -10%;
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(29, 29, 29);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px;
+}
+#r{
+    height: 70%;
+    width: 50%;
+    background-image: url(https://media.istockphoto.com/id/1372134479/photo/contact-us-support-service-and-information-connect-concept-females-hands-is-using-mobile.jpg?s=1024x1024&w=is&k=20&c=3rMmxqJn8-k2SvSpj2y9mGjYaYg6bfi6FzfkQpiE1QA=);
+    background-size: cover;
+    background-position: 90% 50%;
+    /* border-radius: 50%;
+    position: relative;
+    border: 2px solid red; */
+}
+#l{
+    height: 70%;
+    width: 40%;
+}
+.line1{
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    height: 10%;
+    width: 100%;
+    color: red;
+    z-index: 99;
+}
+.line1>h1{
+    margin-bottom: 20px;
+}
+.line2{
+    left: 10%;
+    top: 55%;
+    width: 65%;
+    border-bottom: 2px solid red;
+    position: absolute;
+    transform: rotate(15deg);
+    transform-origin: left;
+}
+.circle2{
+    height: 10vw;
+    width: 10vw;
+    margin-top: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:aliceblue;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.circle2>i{
+    color: red;
+    font-size: 40px;
+}
+#text5{
+    height: 35%;
+    width: 100%;
+    position: relative;
+}
+#text5>h1{
+    font-size: 50px;
+    font-weight: 500;
+    padding-top: 20px;
+    color: rgb(250, 97, 97);
+}
+#me{
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    padding: 0px 70px;
+}
+#text5>#me>h1{
+    font-size: 60px;
+    align-items: center;
+    color: red;
+}
+#text5>h5{
+    color: yellow;
+    transform: rotate(-20deg);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+#id{
+    height: 50%;
+    width: 100%;
+    margin-top: 30px;
+}
+#app{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+    color: red;
+    border-top: 2px solid red;
+}
+.circle-m{
+    height: 3vw;
+    width: 3vw;
+    margin-top: 2%;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    justify-content: center;
+    background-color:aliceblue;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+.circle-m>i{
+    color:red;
+    font-size: 20px;
+}
+#i{
+    height: 40%;
+    width: 60%;
+    bottom: 10%;
+    position: absolute;
+}
+#i>i{
+    color:aliceblue;
+    font-size: 300px;
+}
